@@ -14,3 +14,6 @@ set backspace=indent,eol,start
 set hlsearch
 set incsearch " highlight while searching
 nnoremap <CR> :noh<CR>
+
+" Disable ping noise in terminal by enabling visual bell instead
+set vb t_vb=
