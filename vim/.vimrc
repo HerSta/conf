@@ -8,3 +8,12 @@ set relativenumber
 set tabstop=4 shiftwidth=4 expandtab
 
 set backspace=indent,eol,start
+
+
+" Enable highlighting
+set hlsearch
+set incsearch " highlight while searching
+nnoremap <CR> :noh<CR>
+
+" Disable ping noise in terminal by enabling visual bell instead
+set vb t_vb=

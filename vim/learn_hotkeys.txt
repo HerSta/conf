@@ -1,0 +1,7 @@
+H  - (high) go to top of screen
+M  - (middle) go to mid of screen
+L  - (low) go to bot of screen
+
+gg - goto top of file
+G  - goto bot of file
+[number] gg and [number] G does the same
