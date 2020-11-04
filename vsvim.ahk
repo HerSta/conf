@@ -1,3 +1,11 @@
+/*
+Windows:
+Put this file in "C:\Users\herma\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup". 
+Or whatever file that Windows+R, shell:startup brings you to.
+*/
+
+
+
 SetTitleMatchMode, RegEx
 #IfWinActive .*Microsoft Visual Studio|JetPopupMenuView|ReSharper|dotPeek|PyCharm|Rider|Android Studio|.*GVIM|.*Visual Studio Code
 /*
@@ -8,6 +16,8 @@ For example https://chrome.google.com/webstore/detail/surfingkeys/  in chrome
 #IfWinActive
 <!k::Send {Up}
 <!j::Send {Down}
+<!h::Send {Left}
+<!l::Send {Right}
 
 
 /* Capslock::Esc */
